@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = <<SUMMARY
   Good Cassandra data modeling embraces the distributed nature of the database, and makes heavy use of materialized views or as I like to refer to them "Query Tables". In this concept you denormalize your data and model your tables after the queries you need to preform in your application. Denormalization of course has downsides when it comes to data consistency and performance if you're making roundtrips for each table. Cassandra's api helps us solve the data consistency between query tables problem with the BATCH statment. Other Active Record implmentations do not allow you to batch these updates easily and most people resort to hand CQL and respositories to keep their data consisten. I aim to eliminate this boilerplate.
 SUMMARY
-  spec.homepage      = "http://https://github.com/rssvihla/cassmap"
+  spec.homepage      = "https://github.com/rssvihla/cassmap"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
