@@ -20,9 +20,9 @@ to keep their data consisten. I aim to eliminate this boilerplate.</p>
 
 ## Usage
 
-### ActiveRecord Implementation
+### ActiveModel Implementation
 
-I'm aiming to be as compatible as possible with ActiveRecord in syntax, I do not believe this will be 100%
+I'm aiming to be as compatible as possible with ActiveRecord's in syntax, I do not believe this will be 100%
 possible
 
 In the simplest case, given a model that looks like this:
