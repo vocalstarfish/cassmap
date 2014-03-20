@@ -1,5 +1,5 @@
 require "cassmap/version"
+require "bigdecimal"
+require "cassmap/base"
+require "uuidtools"
 
-module Cassmap
-  # Your code goes here...
-end
