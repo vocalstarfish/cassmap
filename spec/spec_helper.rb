@@ -3,6 +3,8 @@ require 'cassmap'
 
 #require all files in spec/support
 Dir["./spec/support/**/*.rb"].sort.each {|f| require f}
+Cassmap::Config.hosts = [ "localhost" ]
+Cassmap::Config.keyspace = "cassmap_test"
 
 RSpec.configure do |config|
   config.treat_symbols_as_metadata_keys_with_true_values = true

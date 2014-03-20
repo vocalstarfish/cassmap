@@ -15,7 +15,7 @@ class CqlSingleton
   attr_reader :client
 
   def connect
-    @client = Cql::Client.connect hosts: ["localhost"]
+    @client = Cql::Client.connect hosts: Cassmap::Config.hosts
   end
 
   def shutdown

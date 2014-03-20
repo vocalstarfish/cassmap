@@ -1,5 +1,8 @@
 require "cassmap/version"
 require "bigdecimal"
-require "cassmap/base"
 require "uuidtools"
+require "cql"
+require "cassmap/config"
+require "cassmap/cql"
+require "cassmap/base"
 
