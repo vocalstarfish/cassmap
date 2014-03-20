@@ -1,10 +1,12 @@
 # Cassmap
 
 <p><b>Consider this pre-alpha and use at your own risk. This will take at least a month to not suck.</b></p>
+<p>Interested in the proof of concept? see <a href="https://github.com/rssvihla/bootcamp_time_series/tree/master/lib/cassmap">here</a></p>
 
 <p>Cassmap provides ActiveRecord like functionality with <b>full query table tracking</b> for those on Rails wishing to use
     the excellent Cassandra distributed data store.
 </p>
+
 
 #What's query table tracking?
 
